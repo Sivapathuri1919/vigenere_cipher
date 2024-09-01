@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: absolute;
+    max-width: 1200px; /* Increased container width */
+    height: auto; /* Adjust height to fit content */
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myCtn {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    padding: 40px; /* Increased padding for larger container */
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.myCtn header {
+    color: blueviolet;
+    font-size: 50px; /* Increased font size for header */
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form elements */
+    gap: 20px; /* Increased space between form elements */
+}
+
+label {
+    font-size: 22px; /* Increased font size for labels */
+    font-weight: 600; /* Make labels bolder */
+    width: 100%;
+    max-width: 500px; /* Ensure labels do not exceed width */
+    text-align: left; /* Align text to the left */
+}
+
+.myInput {
+    width: 100%;
+    max-width: 500px; /* Increased width of input fields */
+    border-radius: 25px;
+    padding: 15px; /* Increased padding for larger input fields */
+    font-size: 20px; /* Increased font size for input fields */
+    border: 1px solid black;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+textarea.myInput {
+    resize: vertical; /* Allow vertical resizing only */
+    height: 150px; /* Increased height for textarea */
+}
+
+.butt {
+    background: linear-gradient(45deg, #bb36fd, #9b00eB);
+    color: #fff;
+    width: 100%;
+    max-width: 500px; /* Increased width of button */
+    border: none;
+    border-radius: 25px;
+    padding: 15px; /* Increased padding for larger button */
+    font-size: 20px; /* Increased font size for button */
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.butt:hover {
+    background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.result-text {
+    font-size: 24px; /* Increase the font size of the result text */
+    font-weight: bold; /* Make the result text bold */
+    color: #333; /* Optionally change the color for better visibility */
+    margin-top: 20px; /* Add some space above the result text */
+    text-align: center; /* Center-align the result text */
+}
